@@ -43,7 +43,7 @@ val httpModule = module {
             socketTimeoutMillis = 10000
         }
         install(UserAgent) {
-            agent = "ReVanced-Manager/${BuildConfig.VERSION_CODE}"
+            agent = "Cadence-Manager/${BuildConfig.VERSION_CODE}"
         }
     }
 

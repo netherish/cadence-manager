@@ -140,7 +140,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "app.revanced.manager.flutter"
+        applicationId = "app.cadence.manager"
 
         minSdk {
             version = release(26)

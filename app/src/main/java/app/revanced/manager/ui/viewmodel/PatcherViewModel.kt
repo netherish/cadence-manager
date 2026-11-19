@@ -688,7 +688,7 @@ class PatcherViewModel(
     }
 
     private companion object {
-        const val TAG = "ReVanced Patcher"
+        const val TAG = "Cadence Patcher"
 
         fun LogLevel.androidLog(msg: String) = when (this) {
             LogLevel.TRACE -> Log.v(TAG, msg)
