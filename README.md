@@ -1,104 +1,51 @@
-<p align="center">
-  <picture>
-    <source
-      width="256px"
-      media="(prefers-color-scheme: dark)"
-      srcset="assets/revanced-headline/revanced-headline-vertical-dark.svg"
-    >
-    <img 
-      width="256px"
-      src="assets/revanced-headline/revanced-headline-vertical-light.svg"
-    >
-  </picture>
-  <br>
-  <a href="https://revanced.app/">
-       <picture>
-           <source height="24px" media="(prefers-color-scheme: dark)" srcset="assets/revanced-logo/revanced-logo.svg" />
-           <img height="24px" src="assets/revanced-logo/revanced-logo.svg" />
-       </picture>
-   </a>&nbsp;&nbsp;&nbsp;
-   <a href="https://github.com/ReVanced">
-       <picture>
-           <source height="24px" media="(prefers-color-scheme: dark)" srcset="https://i.ibb.co/dMMmCrW/Git-Hub-Mark.png" />
-           <img height="24px" src="https://i.ibb.co/9wV3HGF/Git-Hub-Mark-Light.png" />
-       </picture>
-   </a>&nbsp;&nbsp;&nbsp;
-   <a href="http://revanced.app/discord">
-       <picture>
-           <source height="24px" media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/13122796/178032563-d4e084b7-244e-4358-af50-26bde6dd4996.png" />
-           <img height="24px" src="https://user-images.githubusercontent.com/13122796/178032563-d4e084b7-244e-4358-af50-26bde6dd4996.png" />
-       </picture>
-   </a>&nbsp;&nbsp;&nbsp;
-   <a href="https://reddit.com/r/revancedapp">
-       <picture>
-           <source height="24px" media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/13122796/178032351-9d9d5619-8ef7-470a-9eec-2744ece54553.png" />
-           <img height="24px" src="https://user-images.githubusercontent.com/13122796/178032351-9d9d5619-8ef7-470a-9eec-2744ece54553.png" />
-       </picture>
-   </a>&nbsp;&nbsp;&nbsp;
-   <a href="https://t.me/app_revanced">
-      <picture>
-         <source height="24px" media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/13122796/178032213-faf25ab8-0bc3-4a94-a730-b524c96df124.png" />
-         <img height="24px" src="https://user-images.githubusercontent.com/13122796/178032213-faf25ab8-0bc3-4a94-a730-b524c96df124.png" />
-      </picture>
-   </a>&nbsp;&nbsp;&nbsp;
-   <a href="https://x.com/revancedapp">
-      <picture>
-         <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/93124920/270180600-7c1b38bf-889b-4d68-bd5e-b9d86f91421a.png">
-         <img height="24px" src="https://user-images.githubusercontent.com/93124920/270108715-d80743fa-b330-4809-b1e6-79fbdc60d09c.png" />
-      </picture>
-   </a>&nbsp;&nbsp;&nbsp;
-   <a href="https://www.youtube.com/@ReVanced">
-      <picture>
-         <source height="24px" media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/13122796/178032714-c51c7492-0666-44ac-99c2-f003a695ab50.png" />
-         <img height="24px" src="https://user-images.githubusercontent.com/13122796/178032714-c51c7492-0666-44ac-99c2-f003a695ab50.png" />
-     </picture>
-   </a>
-   <br>
-   <br>
-   Continuing the legacy of Vanced
-</p>
+# Cadence Manager
 
-# 💊 ReVanced Manager
+A smooth, advanced Android app for patching YouTube and YouTube Music — developed by **netherish**.
 
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/ReVanced/revanced-manager/release.yml)
-![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)
+[![GPL-3.0](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](LICENSE)
 
-Application to use ReVanced on Android
+## About
 
-## ❓ About
+Cadence Manager is a customized build of [ReVanced Manager](https://github.com/ReVanced/revanced-manager). It uses [ReVanced Patcher](https://github.com/revanced/revanced-patcher) to download and apply patches to Android apps, with a fresh Cadence identity, original artwork, and a polished Material 3 Expressive UI.
 
-ReVanced Manager is an application that uses [ReVanced Patcher](https://github.com/revanced/revanced-patcher) to patch Android apps.
+**Developed by [netherish](https://github.com/netherish)** · Based on [ReVanced Manager](https://github.com/ReVanced) · Licensed under GPL-3.0.
 
-## 💪 Features
+## Features
 
-Some of the features ReVanced Manager provides are:
+- ⬇️ **Download** — fetch apps through configurable downloader sources
+- 💉 **Patch** — select and apply patches to YouTube, YouTube Music, and other apps
+- 🛠️ **Customize** — manage patches, signing, themes, updates, and advanced settings
+- 📱 **Root & non-root** — mount over the official app on rooted devices, or install standalone
+- 🎨 **Original Cadence artwork** — teal/violet equalizer identity, no third-party branded assets
 
-- ⬇️ **Download**: Automatically download apps using the ReVanced Manager downloader system
-- 💉 **Patch**: Select and apply patches to any Android app
-- 🛠️ **Customize**: Manage patches, apps, signing, themes, updates, and many more settings
+## Download
 
-## 🔽 Download
+Grab the latest APK from [GitHub Releases](https://github.com/netherish/cadence-manager/releases/latest).
 
-You can download the most recent version of ReVanced Manager at [revanced.app/download](https://revanced.app/download) or from [GitHub releases](https://github.com/ReVanced/revanced-manager/releases/latest).  
-Learn how to use ReVanced Manager by following the [documentation](/docs).
+Requires **Android 8.0 (API 26)** or newer.
 
-## 📚 Everything else
+## Build from source
 
-### 📙 Contributing
+You need JDK 17 and Android SDK (platform 36, build-tools 35/36, NDK 27, CMake 3.22.1). GitHub Packages credentials with `read:packages` are required in `~/.gradle/gradle.properties`:
 
-Thank you for considering contributing to ReVanced Manager.
-You can find the contribution guidelines [here](CONTRIBUTING.md).
+```properties
+githubPackagesUsername=YOUR_USERNAME
+githubPackagesPassword=YOUR_TOKEN_WITH_read:packages
+```
 
-### 🛠️ Building
+```powershell
+.\gradlew.bat assembleRelease
+```
 
-To build a ReVanced Manager, you can follow the [documentation](/docs).
+The output APK is at `app\build\outputs\apk\release\`.
 
-### 📄 Documentation
+See [CADENCE.md](CADENCE.md) for full details, root/non-root flows, and customization notes.
 
-You can find the documentation for ReVanced Manager [here](/docs).
+## Documentation
 
-## ⚖️ License
+- [CADENCE.md](CADENCE.md) — build, features, and credits
+- [docs/](docs) — upstream documentation
 
-ReVanced Manager is licensed under the GPLv3 license. Please see the [license file](LICENSE) for more information.
-[tl;dr](https://www.tldrlegal.com/license/gnu-general-public-license-v3-gpl-3) you may copy, distribute and modify ReVanced Manager as long as you track changes/dates in source files.
-Any modifications to ReVanced Manager must also be made available under the GPL, along with build & install instructions.
+## License
+
+Cadence Manager is licensed under **GPL-3.0** — see [LICENSE](LICENSE). This is required by the upstream ReVanced code and patcher library. All original copyright notices are preserved, and credit is given to the ReVanced team in the app and here.

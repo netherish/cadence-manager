@@ -130,7 +130,7 @@ fun AboutSettingsScreen(
             stringResource(R.string.submit_feedback),
             stringResource(R.string.submit_feedback_description),
             third = {
-                context.openUrl("https://github.com/ReVanced/revanced-manager/issues/new/choose")
+                context.openUrl("https://github.com/netherish/cadence-manager/issues/new/choose")
             }),
         Triple(
             stringResource(R.string.contributors),
