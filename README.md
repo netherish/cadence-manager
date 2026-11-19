@@ -20,7 +20,9 @@ Cadence Manager is a customized build of [ReVanced Manager](https://github.com/R
 
 ## Download
 
-Grab the latest APK from [GitHub Releases](https://github.com/netherish/cadence-manager/releases/latest).
+**[⬇️ Download Cadence Manager APK (v2.6.1)](https://github.com/netherish/cadence-manager/releases/download/v2.6.1/cadence-manager.apk)**
+
+Or browse [all releases](https://github.com/netherish/cadence-manager/releases/latest).
 
 Requires **Android 8.0 (API 26)** or newer.
 
